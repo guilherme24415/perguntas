@@ -1,172 +1,169 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Ao chegar no museu misterioso, você encontra um antigo artefato que parece ter um poder desconhecido. O que você pensa ao vê-lo?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Isso é perigoso!",
                 afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer.",
-                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                    "Você sente que algo sombrio está por trás daquele artefato.",
+                    "Fica apreensivo, imaginando que talvez o museu esteja tentando esconder algo."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Isso é fascinante!",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia.",
-                    "Pensou que IA pode ajudar em tarefas da sua vida."
+                    "Você se encanta com o artefato e deseja entender sua história.",
+                    "Pensa que pode ser a chave para desvendar o mistério do museu."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Durante sua exploração no museu, você descobre uma sala secreta. Dentro dela, há uma mensagem enigmática escrita em uma parede. Como você reage?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Tento decifrar a mensagem utilizando todos os meus conhecimentos.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Você consegue entender algumas palavras e fica mais empolgado para resolver o mistério.",
+                    "A sensação de estar próximo da verdade te motiva a continuar investigando."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Fico cauteloso e decido não me envolver com isso agora.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Você tem medo de que essa mensagem seja uma armadilha ou algo perigoso.",
+                    "A curiosidade é grande, mas você sente que pode ser mais seguro continuar sua busca em outra parte do museu."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Você encontra um antigo diário escondido entre os livros do museu. Ao abrir, descobre pistas sobre um grande segredo. O que você faz?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Leio atentamente, tentando entender tudo o que está escrito.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
-                ],
-                proxima: 3,
-            },
-            {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
-                ],
-                proxima: 4,
-            },
-        ]
-    },
-    {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
-        alternativas: [
-            {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "O diário revela informações cruciais sobre o museu e seus mistérios.",
+                    "Você percebe que as pistas podem levar a uma revelação chocante sobre o passado do museu."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Decido levar o diário comigo para analisar depois com mais calma.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Você sente que precisa ter mais tempo para entender as mensagens ocultas no diário.",
+                    "Ao levar o diário, você sente que talvez a verdade esteja mais próxima do que imagina."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Em uma das galerias, você encontra uma pintura antiga que parece ter mudado à medida que você a observa. O que você pensa sobre isso?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Isso é uma ilusão! Preciso investigar mais a fundo.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Você começa a procurar sinais de que a pintura está de alguma forma manipulando a realidade.",
+                    "Sente que o museu está cheio de mistérios que devem ser desvendados."
                 ],
-                proxima: 5,
+                proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Essa pintura tem algo a mais... Talvez um segredo escondido.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Você acha que a pintura pode ser a chave para o próximo passo na investigação.",
+                    "Fica intrigado com a possibilidade de que as pinturas guardam pistas sobre o que realmente aconteceu no museu."
                 ],
-                proxima: 6,
+                proxima: 8,
             },
         ]
     },
     {
-        enunciado: "Novas tecnologias trazem novos desafios, por isso após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Você encontra uma escada secreta que leva a um andar subterrâneo do museu. O que você faz?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Desço sem hesitar, já que o mistério do museu só aumenta.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Você sente um frio na espinha, mas a curiosidade é maior.",
+                    "Sabe que encontrar o que está escondido lá embaixo pode ser crucial para desvendar o segredo."
                 ],
-                proxima: 7,
+                proxima: 9,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Decido ficar no andar principal, sem querer arriscar.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Você sente que o perigo pode estar mais embaixo e decide não se arriscar.",
+                    "A curiosidade ainda está ali, mas o receio de algo desconhecido te impede de seguir adiante."
                 ],
-                proxima: 7,
+                proxima: 10,
             },
         ]
     },
     {
-        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Ao explorar mais fundo, você encontra um antigo baú trancado com um código. Como você age?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Tento decifrar o código imediatamente, acreditando que ele leva a algo importante.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "A sensação de que o segredo está logo ali te motiva a trabalhar rápido.",
+                    "Você consegue resolver o código e o baú se abre, revelando um objeto misterioso."
                 ],
-                proxima: 7,
+                proxima: 11,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Decido procurar por mais pistas antes de tentar abrir o baú.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Você sente que o código pode ser mais complexo do que parece e prefere encontrar mais pistas primeiro.",
+                    "Parece que o baú tem uma ligação com outras partes do museu, então você decide investigar mais."
                 ],
-                proxima: 7,
+                proxima: 12,
             },
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você encontra uma carta antiga escondida entre os objetos no museu. Ela revela uma história sobre o fundador do museu e um grande segredo. O que você faz?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Leio a carta e tento entender o contexto da história.",
                 afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-                    "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
+                    "A história revela algo que muda tudo o que você achava sobre o museu.",
+                    "Você sente que a carta é uma peça-chave para entender o mistério por trás do museu."
                 ],
+                proxima: 13,
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Decido levar a carta para outra parte do museu para analisá-la em um lugar mais seguro.",
                 afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
-                    "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
-                    "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
+                    "Você sente que o ambiente do museu pode estar influenciando o que você lê.",
+                    "A carta contém informações que podem ajudar a desvendar a verdade, e você precisa de um espaço mais tranquilo para refletir."
                 ],
+                proxima: 14,
+            },
+        ]
+    },
+    {
+        enunciado: "Você encontra um relógio de bolso antigo que parece ter parado no tempo. Você percebe que ele tem um mistério. O que faz?",
+        alternativas: [
+            {
+                texto: "Investigo o relógio mais a fundo, procurando alguma conexão com outros objetos do museu.",
+                afirmacao: [
+                    "Você encontra uma inscrição secreta dentro do relógio que pode ser uma pista crucial.",
+                    "A sensação de que o relógio guarda algo importante só aumenta à medida que você o examina mais detalhadamente."
+                ],
+                proxima: 15,
+            },
+            {
+                texto: "Decido ignorar o relógio e continuar minha investigação.",
+                afirmacao: [
+                    "Você sente que o relógio pode ser irrelevante, mas uma parte de você fica inquieta.",
+                    "A curiosidade persiste, mas você escolhe focar em outros objetos do museu."
+                ],
+                proxima: 16,
             },
         ]
     }
